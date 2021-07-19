@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_weight="5"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_id_single_row"
+        android:layout_weight="0.2"
+        android:text="1"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tv_name_single_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="2"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        tools:text="hello"/>
+    <TextView
+        android:id="@+id/tv_email_single_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="2"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        tools:text="hello"/>
+    <ImageView
+        android:id="@+id/ic_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/edit"
+        android:padding="5dp"
+        android:layout_weight="0.4"
+        />
+    <ImageView
+        android:id="@+id/ic_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/delete"
+        android:padding="5dp"
+        android:layout_weight="0.4"
+
+        />
+
+</LinearLayout>
